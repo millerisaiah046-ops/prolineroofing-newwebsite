@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior:auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ribbed Metal Roofing | ProLine Roofing Inc</title>
+<meta name="description" content="Ribbed metal roofing for homes, garages, shops, agricultural and commercial buildings. ProLine Roofing, Shipshewana, Indiana.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="subpage.css">
+</head>
+<body>
+<header><div class="wrap">
+ <a href="index.html" aria-label="ProLine Roofing Inc home"><img src="images/logo.png" alt="ProLine Roofing Inc"></a>
+ <nav aria-label="Main"><a href="index.html#services">Services</a><a href="index.html#process">Our process</a><a href="index.html#colors">Colors</a><a href="index.html#projects">Projects</a><a href="index.html#area">Service area</a><a class="tel" href="tel:+12603167419">260-316-7419</a><a class="btn" href="index.html#quote">Get a free quote</a></nav>
+ <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</div></header>
+
+<main id="top">
+<div class="ss-hero">
+ <div class="ss-copy">
+  <span class="eyebrow">Ribbed metal</span>
+  <h1>Proven, versatile, and practical.</h1>
+  <p class="lead">A dependable choice when straightforward performance, installation efficiency, and project value matter.</p>
+  <div class="ss-row"><a class="btn" href="index.html#quote">Get a free quote</a><a class="btn ghost" href="index.html#projects">See our work</a></div>
+ </div>
+ <img src="images/gallery/photo-13.jpg" alt="Metal building with a dark ribbed metal roof" style="object-position:center 40%">
+</div>
+<div class="rb-uses"><ul aria-label="Where ribbed metal is used"><li>Homes</li><li>Garages</li><li>Shops</li><li>Agricultural</li><li>Commercial</li></ul></div>
+
+<section class="rb-video"><div class="rb-vwrap">
+ <video autoplay muted loop playsinline preload="metadata" poster="videos/ribbed-roof-poster.jpg" aria-label="Aerial flyover of a green ribbed metal roof"><source src="videos/ribbed-roof.mp4" type="video/mp4"></video>
+</div></section>
+
+<section class="ss-sec"><div class="wrap">
+ <div class="rb-cols">
+  <div class="ss-feat rv"><h3>Why choose it</h3><p>Durable steel and broad application flexibility.</p></div>
+  <div class="ss-feat warn rv"><h3>System note</h3><p>Exposed fasteners depend on correct placement, sealing, and maintenance.</p><p>ProLine does not provide a lifetime craftsmanship warranty on exposed fastener products.</p></div>
+  <div class="ss-feat rv"><h3>Design flexibility</h3><p>Coordinate roofing, siding, and trim colors across the property.</p></div>
+ </div>
+ <p class="ss-more" style="margin-top:44px">Want to see it on a building? <a href="index.html#colors">Try roof, siding and trim colors</a>.</p>
+</div></section>
+
+<div class="band since"><section><div class="wrap">
+ <div class="stack"><h2>Need metal on a home, shop or barn?</h2><p>Every job starts with a free inspection and ends with a cleaned yard, a magnet sweep and a walk-through. You get a written quote with the roof deck condition, the materials and the price.</p></div>
+ <div class="stack"><a class="btn" href="index.html#quote">Get a free quote</a><p class="callus">Or call <a href="tel:+12603167419">260-316-7419</a></p></div>
+</div></section></div>
+</main>
+
+<footer><div class="wrap"><a class="f-logo" href="index.html" aria-label="ProLine Roofing Inc home"><img src="images/logo.png" alt="ProLine Roofing Inc"></a><span>ProLine Roofing Inc. Your local roofing pro.</span><span>260-316-7419 &middot; Shipshewana, IN</span></div></footer>
+
+<script>
+try{history.scrollRestoration='manual'}catch(e){}
+(function(){var go=true;function top(){if(go)window.scrollTo(0,0)}
+ ['wheel','touchstart','keydown','mousedown'].forEach(function(t){window.addEventListener(t,function(){go=false},{passive:true,once:true})});
+ top();document.addEventListener('DOMContentLoaded',top);window.addEventListener('load',top);window.addEventListener('pageshow',top);
+ [100,300,700,1500].forEach(function(ms){setTimeout(top,ms)});})();
+(function(){
+ var els=[].slice.call(document.querySelectorAll('.rv'));
+ if(!('IntersectionObserver' in window)||window.matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+ document.documentElement.classList.add('js');
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15});
+ els.forEach(function(e){io.observe(e)});
+})();
+</script>
+<script>
+(function(){var b=document.querySelector('.menu-btn'),n=document.querySelector('header nav'),h=document.querySelector('header');if(!b||!n)return;
+function set(o){n.classList.toggle('open',o);h.classList.toggle('menu-open',o);b.setAttribute('aria-expanded',o?'true':'false');document.body.style.overflow=o?'hidden':''}
+b.addEventListener('click',function(){set(!n.classList.contains('open'))});
+n.addEventListener('click',function(e){if(e.target.closest('a'))set(false)});
+addEventListener('keydown',function(e){if(e.key==='Escape')set(false)});
+addEventListener('resize',function(){if(innerWidth>760)set(false)});})();
+</script>
+</body>
+</html>

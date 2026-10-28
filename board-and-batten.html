@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior:auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Board and Batten Steel Siding | ProLine Roofing Inc</title>
+<meta name="description" content="Board and batten steel siding with architectural impact. ProLine Roofing, Shipshewana, Indiana.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="subpage.css">
+</head>
+<body>
+<header><div class="wrap">
+ <a href="index.html" aria-label="ProLine Roofing Inc home"><img src="images/logo.png" alt="ProLine Roofing Inc"></a>
+ <nav aria-label="Main"><a href="index.html#services">Services</a><a href="index.html#process">Our process</a><a href="index.html#colors">Colors</a><a href="index.html#projects">Projects</a><a href="index.html#area">Service area</a><a class="tel" href="tel:+12603167419">260-316-7419</a><a class="btn" href="index.html#quote">Get a free quote</a></nav>
+ <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</div></header>
+
+<main id="top">
+<div class="ss-hero">
+ <div class="ss-copy">
+  <span class="eyebrow">Steel siding</span>
+  <h1>Durable protection with architectural impact.</h1>
+  <p class="lead">Transform the exterior while reducing routine maintenance and coordinating beautifully with a metal roof.</p>
+  <div class="ss-row"><a class="btn" href="index.html#quote">Roof + siding packages</a><a class="btn ghost" href="index.html#projects">See our work</a></div>
+ </div>
+ <img src="images/gallery/photo-07.jpg" alt="Home with dark board and batten steel siding and cedar accents" style="object-position:center 45%">
+</div>
+
+<section class="ss-sec"><div class="wrap">
+ <span class="eyebrow">Siding options</span>
+ <h2>Steel siding, done right.</h2>
+ <div class="ss-feats">
+  <div class="ss-feat rv"><h3>Board &amp; batten</h3><p>Vertical lines create depth and a premium modern look.</p></div>
+  <div class="ss-feat rv"><h3>Ribbed profiles</h3><p>A practical finish for garages, shops, agricultural, and commercial buildings.</p></div>
+  <div class="ss-feat rv"><h3>Accent applications</h3><p>Use steel at gables, entries, or feature walls.</p></div>
+  <div class="ss-feat rv"><h3>Trim integration</h3><p>Corners, openings, and transitions complete the exterior.</p></div>
+ </div>
+ <p class="ss-more">Want to see it on a building? <a href="index.html#colors">Try roof, siding and trim colors</a>.</p>
+</div></section>
+
+<div class="band since"><section><div class="wrap">
+ <div class="stack"><h2>Ready to update your exterior?</h2><p>Every job starts with a free inspection and ends with a cleaned yard, a magnet sweep and a walk-through. You get a written quote with the materials and the price.</p></div>
+ <div class="stack"><a class="btn" href="index.html#quote">Get a free quote</a><p class="callus">Or call <a href="tel:+12603167419">260-316-7419</a></p></div>
+</div></section></div>
+</main>
+
+<footer><div class="wrap"><a class="f-logo" href="index.html" aria-label="ProLine Roofing Inc home"><img src="images/logo.png" alt="ProLine Roofing Inc"></a><span>ProLine Roofing Inc. Your local roofing pro.</span><span>260-316-7419 &middot; Shipshewana, IN</span></div></footer>
+
+<script>
+try{history.scrollRestoration='manual'}catch(e){}
+(function(){var go=true;function top(){if(go)window.scrollTo(0,0)}
+ ['wheel','touchstart','keydown','mousedown'].forEach(function(t){window.addEventListener(t,function(){go=false},{passive:true,once:true})});
+ top();document.addEventListener('DOMContentLoaded',top);window.addEventListener('load',top);window.addEventListener('pageshow',top);
+ [100,300,700,1500].forEach(function(ms){setTimeout(top,ms)});})();
+(function(){
+ var els=[].slice.call(document.querySelectorAll('.rv'));
+ if(!('IntersectionObserver' in window)||window.matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+ document.documentElement.classList.add('js');
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15});
+ els.forEach(function(e){io.observe(e)});
+})();
+</script>
+<script>
+(function(){var b=document.querySelector('.menu-btn'),n=document.querySelector('header nav'),h=document.querySelector('header');if(!b||!n)return;
+function set(o){n.classList.toggle('open',o);h.classList.toggle('menu-open',o);b.setAttribute('aria-expanded',o?'true':'false');document.body.style.overflow=o?'hidden':''}
+b.addEventListener('click',function(){set(!n.classList.contains('open'))});
+n.addEventListener('click',function(e){if(e.target.closest('a'))set(false)});
+addEventListener('keydown',function(e){if(e.key==='Escape')set(false)});
+addEventListener('resize',function(){if(innerWidth>760)set(false)});})();
+</script>
+</body>
+</html>
